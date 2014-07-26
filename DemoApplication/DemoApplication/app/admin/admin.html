@@ -1,0 +1,69 @@
+﻿<section class="mainbar" data-ng-controller="admin as vm">
+    <section class="matter">
+        <div class="container">
+            <div class="row">
+                <div class="widget wviolet">
+                    <div data-cc-widget-header title="{{vm.title}}"></div>
+                 
+                  
+                </div>
+            </div>
+            <div>
+                <form name="demo">
+                    <div>
+                        <ul>
+                            <li>
+                                <div ng-repeat="user in users">
+                                    <user-tag user="user"></user-tag>
+                                </div>
+
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div style="float:left">
+                        <div>
+                            <label>Name</label>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Name" required ng-model="newuser.name" />
+                        </div>
+                    </div>
+                    <div style="clear: both"></div>
+
+                    <div style="float: left">
+                        <div>
+                            <label>Address</label>
+                        </div>
+                        <div>
+                            <textarea placeholder="Address" required ng-model="newuser.address"></textarea>
+                        </div>
+
+                    </div>
+                    <div style="clear: both"></div>
+
+                    <div style="float: left">
+                        <div>
+                            <label>Email</label>
+                        </div>
+                        <div>
+                            <input type="email" name="input" placeholder="EmailID" ng-model="newuser.emailid" required>
+                            <span class="error" ng-show="demo.input.$error.required">Required!</span> <span class="error" ng-show="demo.input.$error.email">Not valid email!</span><br />
+                        </div>
+                    </div>
+                    <div style="clear: both"></div>
+
+                    <div style="float: left">
+                        <div>
+
+                            <button type="submit" ng-disabled="demo.$invalid" ng-click="save(newuser)">Ok</button>
+
+                        </div>
+                    </div>
+                    <div style="clear: both"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+</section>

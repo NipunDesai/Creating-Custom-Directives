@@ -1,0 +1,12 @@
+c:\users\nipun\documents\visual studio 2013\Projects\DemoApplication\DemoApplication\bin\DemoApplication.dll.config
+c:\users\nipun\documents\visual studio 2013\Projects\DemoApplication\DemoApplication\bin\DemoApplication.dll
+c:\users\nipun\documents\visual studio 2013\Projects\DemoApplication\DemoApplication\bin\DemoApplication.pdb
+c:\users\nipun\documents\visual studio 2013\Projects\DemoApplication\DemoApplication\obj\Debug\DemoApplication.csprojResolveAssemblyReference.cache
+c:\users\nipun\documents\visual studio 2013\Projects\DemoApplication\DemoApplication\obj\Debug\DemoApplication.dll
+c:\users\nipun\documents\visual studio 2013\Projects\DemoApplication\DemoApplication\obj\Debug\DemoApplication.pdb
+D:\Nipun\DemoProject\Custom Directives\DemoApplication\DemoApplication\bin\DemoApplication.dll.config
+D:\Nipun\DemoProject\Custom Directives\DemoApplication\DemoApplication\bin\DemoApplication.dll
+D:\Nipun\DemoProject\Custom Directives\DemoApplication\DemoApplication\bin\DemoApplication.pdb
+D:\Nipun\DemoProject\Custom Directives\DemoApplication\DemoApplication\obj\Debug\DemoApplication.csprojResolveAssemblyReference.cache
+D:\Nipun\DemoProject\Custom Directives\DemoApplication\DemoApplication\obj\Debug\DemoApplication.dll
+D:\Nipun\DemoProject\Custom Directives\DemoApplication\DemoApplication\obj\Debug\DemoApplication.pdb
